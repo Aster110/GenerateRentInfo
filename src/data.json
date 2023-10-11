@@ -1,0 +1,154 @@
+{
+  "address" : "围岭",
+  "rooms" : [ {
+    "roomNum" : "101",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "102",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "201",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "202",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "301",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "302",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "401",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "402",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "501",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  }, {
+    "roomNum" : "502",
+    "monthlyBills" : [ {
+      "tenant" : "张三",
+      "year" : 2023,
+      "month" : 7,
+      "period" : 6,
+      "waterMeter" : 31.0,
+      "electricMeter" : 4017.0,
+      "otherFees" : 0.0,
+      "baseRent" : 600.0,
+      "waterFee" : 5.5,
+      "electricFee" : 118.8,
+      "total" : 1700.0
+    } ]
+  } ]
+}
