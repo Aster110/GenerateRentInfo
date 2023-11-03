@@ -1,0 +1,101 @@
+[ {
+  "roomNum" : "101",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "102",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "201",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "202",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "301",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "302",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "401",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "402",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "501",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+}, {
+  "roomNum" : "502",
+  "bills" : [ {
+    "year" : 2023,
+    "month" : 7,
+    "period" : 6,
+    "water" : 31.0,
+    "electric" : 4017.0,
+    "baseRent" : 600.0
+  } ]
+} ]

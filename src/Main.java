@@ -1,11 +1,13 @@
-import entity.*;
-import jsonUtils.*;
+import entity.Bill;
+import entity.Building;
+import entity.MonthlyBill;
+import entity.NewBuilding;
+import entity.Room;
+import jsonUtils.JsonUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-
 
 /**
  * @Author l30049897
@@ -17,6 +19,7 @@ public class Main {
 
 
         String jsonFilePath = "src/data.json";
+        String newJsonFilePath = "src/newA.json";
         // 读取JSON为对象
         Building building = JsonUtils.parseFromFile(jsonFilePath);
 
@@ -35,12 +38,26 @@ public class Main {
         // 测试功能
 //        JsonUtils.addNewBill(building, "101", 45, 4100, 2023, 8);
 
-        JsonUtils.generateSendInfo(building);
+        // JsonUtils.generateSendInfo(building);
 
+        List<NewBuilding> newBuildings = new ArrayList<>();
+
+        for (Room room : building.getRooms()) {
+            List<Bill> newBills = new ArrayList<>();
+            for (MonthlyBill oldBill : room.getMonthlyBills()) {
+                Bill bill = new Bill(oldBill.getYear(), oldBill.getMonth(), oldBill.getPeriod(), oldBill.getWaterMeter(),
+                    oldBill.getElectricMeter(), oldBill.getBaseRent());
+                newBills.add(bill);
+            }
+            NewBuilding newBuilding = new NewBuilding(room.getRoomNum(), newBills);
+            newBuildings.add(newBuilding);
+        }
+
+        System.out.println(newBuildings);
         // 对象写入JSON
-        JsonUtils.writeToFile(building, jsonFilePath);
+        JsonUtils.writeToFile(building, newJsonFilePath);
 
-
+        JsonUtils.writeToNewFile(newBuildings, newJsonFilePath);
     }
 }
 

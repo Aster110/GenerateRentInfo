@@ -51,6 +51,10 @@ public class JsonUtils {
         mapper.writeValue(new File(filePath), building);
     }
 
+    public static void writeToNewFile(List<NewBuilding> buildings, String filePath) throws IOException {
+        mapper.writeValue(new File(filePath), buildings);
+    }
+
     /**
      *  写入水电表数据
      *
